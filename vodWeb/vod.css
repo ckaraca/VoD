@@ -1,0 +1,12 @@
+.vod {
+	font-family: Tahoma;
+	color: #FFFFFF;
+}
+vod.iki:hover { color: #CCCCCC; }
+.vod1 {
+	font-family: Tahoma;
+	color:navy;
+	}
+vod1.iki:hover { color: #CCCCCC; }
+a.iki { color:navy; text-decoration: none; font-family: Tahoma;font-weight: bold;font-size: x-small }
+a.iki:hover { color: #CCCCCC; }

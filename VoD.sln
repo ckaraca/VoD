@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoD", "VoD\VoD.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoDPlayer", "VoDPP\VoDPlayer.vcxproj", "{7EC8309B-2DB3-4CF1-A5FF-E7950C006D6D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoDTCPServer", "VoDTCPServer\VoDTCPServer.vcxproj", "{C308A2B5-A5C6-4074-B9C1-094624008356}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VoDUDPServer", "VoDUDPServer\VoDUDPServer.vcxproj", "{7CD5C859-7BD9-47E2-839D-43A14E30861D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +25,14 @@ Global
 		{7EC8309B-2DB3-4CF1-A5FF-E7950C006D6D}.Debug|x86.Build.0 = Debug|Win32
 		{7EC8309B-2DB3-4CF1-A5FF-E7950C006D6D}.Release|x86.ActiveCfg = Release|Win32
 		{7EC8309B-2DB3-4CF1-A5FF-E7950C006D6D}.Release|x86.Build.0 = Release|Win32
+		{C308A2B5-A5C6-4074-B9C1-094624008356}.Debug|x86.ActiveCfg = Debug|Win32
+		{C308A2B5-A5C6-4074-B9C1-094624008356}.Debug|x86.Build.0 = Debug|Win32
+		{C308A2B5-A5C6-4074-B9C1-094624008356}.Release|x86.ActiveCfg = Release|Win32
+		{C308A2B5-A5C6-4074-B9C1-094624008356}.Release|x86.Build.0 = Release|Win32
+		{7CD5C859-7BD9-47E2-839D-43A14E30861D}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CD5C859-7BD9-47E2-839D-43A14E30861D}.Debug|x86.Build.0 = Debug|Win32
+		{7CD5C859-7BD9-47E2-839D-43A14E30861D}.Release|x86.ActiveCfg = Release|Win32
+		{7CD5C859-7BD9-47E2-839D-43A14E30861D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

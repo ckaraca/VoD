@@ -1,0 +1,83 @@
+BODY, P, H1, H2, H3, H4, H5, H6, OL, UL, LI, TD
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: black;
+}
+BODY
+{
+	background-color: #ffffff;
+}
+H1, H2, H3, H4, H5
+{
+	font-weight: bold;
+}
+H2, H3, H5
+{
+	color: #0066ff;
+}
+H1
+{
+	font-size: 16pt;
+}
+H2
+{
+	font-size: 13pt;
+}
+H3
+{
+	font-size: 12pt;
+}
+H4
+{
+	font-size: 10pt;
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+H5
+{
+	font-size: 9pt;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+H6
+{
+	color: #626262;
+	font-size: 65%;
+	font-weight: normal;
+}
+PRE
+{
+	background-color: #FBEDBB;
+	padding: 5pt;
+	font: 10pt "Courier New", Courier, mono;
+	white-space: pre;
+	width: 100%;
+}
+CODE
+{
+	color: #990000;
+	font-family: "Courier New", Courier, mono;
+}
+a:link    { text-decoration:none;      }
+a:visited { text-decoration:none;      }
+a:active  { text-decoration:underline; }
+a:hover   { text-decoration:underline; }
+
+.forum_link:link    { text-decoration:none;      color:#E08900 }
+.forum_link:visited { text-decoration:none;      color:#E08900 }
+.forum_link:active  { text-decoration:none;      color:#E08900 }
+.forum_link:hover   { text-decoration:underline; color:#E08900 }
+
+.FormButton 
+{ 
+	font-size:50%; 
+	color: white; 
+	border-color: #FBEDBB; 
+	background-color: #E08900; 
+	font-weight: 700; 
+}
+.MainTitle
+{
+
+}
