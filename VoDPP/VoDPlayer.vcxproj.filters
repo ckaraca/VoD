@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29958b62-06fb-4595-94ec-2bafa703a54b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fbd0ada0-0e10-467b-8ff7-34810aceee28}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{27f59d16-ac95-49ce-8543-75d81bcdb3e2}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpDown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RUDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitterControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoDPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoDPlayerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playvideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Directx.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TCP.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\VoDPlayer.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Info.htm" />
+    <None Include="res\VoD" />
+    <None Include="res\VoD.avi" />
+    <None Include="res\VoD.html" />
+    <None Include="res\VoD.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HistogramCtrl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpDown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RUDP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitterControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoDPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoDPlayerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LedOff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LedOn.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LedRec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoDPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\arrow copy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\close1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\close2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\info1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\info2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\login.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\open1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\open2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pause.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pause2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\play1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\play2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stop1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stop2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vid.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vod.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\VoDPlayer.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoDPlayer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

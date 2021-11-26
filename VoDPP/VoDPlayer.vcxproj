@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7EC8309B-2DB3-4CF1-A5FF-E7950C006D6D}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29911.84</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libmysql.lib;strmiids.lib;Quartz.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:/VoDRetail/VoDPP.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libmysql.lib;strmiids.lib;Quartz.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:/VoDRetail/VoDPP.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="BufferDlg.cpp" />
+    <ClCompile Include="CRC.cpp" />
+    <ClCompile Include="Delete.cpp" />
+    <ClCompile Include="Drag.cpp" />
+    <ClCompile Include="explorer1.cpp" />
+    <ClCompile Include="explorer2.cpp" />
+    <ClCompile Include="explorer3.cpp" />
+    <ClCompile Include="FtpDown.cpp" />
+    <ClCompile Include="FtpV.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="HistogramCtrl.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="NewFtp.cpp" />
+    <ClCompile Include="playvideo.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="RUDP.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="SplitterControl.cpp" />
+    <ClCompile Include="Sql.cpp" />
+    <ClCompile Include="Stats.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UDP.cpp" />
+    <ClCompile Include="Video.cpp" />
+    <ClCompile Include="VoDPlayer.cpp" />
+    <ClCompile Include="VoDPlayerDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Directx.inl" />
+    <None Include="Info.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\VoD" />
+    <None Include="res\VoD.avi" />
+    <None Include="res\VoD.html" />
+    <None Include="res\VoD.swf" />
+    <None Include="res\VoDPlayer.rc2" />
+    <None Include="TCP.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="BufferDlg.h" />
+    <ClInclude Include="CRC.h" />
+    <ClInclude Include="Delete.h" />
+    <ClInclude Include="Drag.h" />
+    <ClInclude Include="explorer1.h" />
+    <ClInclude Include="explorer2.h" />
+    <ClInclude Include="explorer3.h" />
+    <ClInclude Include="FtpDown.h" />
+    <ClInclude Include="FtpV.h" />
+    <ClInclude Include="HistogramCtrl.h" />
+    <ClInclude Include="Info.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="NewFtp.h" />
+    <ClInclude Include="playvideo.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RUDP.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="SplitterControl.h" />
+    <ClInclude Include="Sql.h" />
+    <ClInclude Include="Stats.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UDP.h" />
+    <ClInclude Include="Video.h" />
+    <ClInclude Include="VoDPlayer.h" />
+    <ClInclude Include="VoDPlayerDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\arrow copy.bmp" />
+    <Image Include="res\close1.ico" />
+    <Image Include="res\close2.ico" />
+    <Image Include="res\info1.ico" />
+    <Image Include="res\info2.ico" />
+    <Image Include="res\LedOff.ico" />
+    <Image Include="res\LedOn.ico" />
+    <Image Include="res\LedRec.ico" />
+    <Image Include="res\login.ico" />
+    <Image Include="res\open1.ico" />
+    <Image Include="res\open2.ico" />
+    <Image Include="res\pause.ico" />
+    <Image Include="res\pause2.ico" />
+    <Image Include="res\play1.ico" />
+    <Image Include="res\play2.ico" />
+    <Image Include="res\stop1.ico" />
+    <Image Include="res\stop2.ico" />
+    <Image Include="res\vid.bmp" />
+    <Image Include="res\vod.bmp" />
+    <Image Include="res\VoD.ico" />
+    <Image Include="res\VoDPlayer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\VoDPlayer.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoDPlayer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

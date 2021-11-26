@@ -1,0 +1,121 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by VoDPlayer.rc
+//
+#define IDR_MANIFEST                    1
+#define IDD_VIDEO                       101
+#define IDD_VODPLAYER_DIALOG            102
+#define IDP_SOCKETS_INIT_FAILED         103
+#define IDD_DIALOGBAR                   103
+#define IDD_LOGIN                       104
+#define IDS_APPLICATON                  104
+#define IDD_STATS                       105
+#define IDR_HTML_ABOUT                  106
+#define IDD_INFO                        107
+#define IDR_HTML_INFO                   108
+#define IDR_MAINFRAME                   128
+#define IDB_BITMAP1                     129
+#define IDB_BITMAP2                     133
+#define IDI_PLAY                        137
+#define IDI_ICON1                       138
+#define IDI_PLAY1                       138
+#define IDI_STOP1                       139
+#define IDI_INFO1                       140
+#define IDI_OPEN                        141
+#define IDI_OPEN1                       142
+#define IDI_STOP                        143
+#define IDI_INFO                        144
+#define IDR_MENU1                       145
+#define ID_POPUP_ABOUTVODPLAYER         146
+#define ID_POPUP_MINIMIZE               147
+#define ID_POPUP_EXIT                   148
+#define IDR_AVI1                        151
+#define IDI_LOGIN                       153
+#define IDD_PROJECT                     155
+#define IDB_BITMAP3                     156
+#define IDR_DATA1                       160
+#define IDR_DATA2                       161
+#define IDD_NEWFTP                      162
+#define IDD_FTPDOWN                     163
+#define IDD_DELETE                      164
+#define ID_POPUP_CONFIGURE              165
+#define ID_CONFIGURE_FTPSITE            166
+#define ID_CONFIGURE_CONNECTIONPROTOCOL 167
+#define ID_CONNECTIONPROTOCOL_RAWFTP    168
+#define ID_CONNECTIONPROTOCOL_UDP       169
+#define ID_CONNECTIONPROTOCOL_RTP       170
+#define ID_CONFIGURE_BUFFERSIZE         171
+#define ID_CONFIGURE_STATISTICS         172
+#define ID_STATISTICS_ON                173
+#define ID_STATISTICS_OFF               174
+#define ID_POPUP_STATISTICS             175
+#define IDI_PAUSE                       176
+#define IDI_ICON3                       177
+#define IDI_PAUSE1                      177
+#define IDR_MENU2                       178
+#define ID_RAT_KEEPASPECTRATIO          179
+#define ID_RAT_DOUBLESIZE               180
+#define ID_CONNECTIONPROTOCOL_TCP       181
+#define IDD_DIALOG1                     182
+#define ID_CONNECTIONPROTOCOL_RUDP      183
+#define IDI_LEDOFF                      184
+#define IDI_LEDON                       185
+#define IDI_ICON2                       187
+#define IDI_REC                         187
+#define IDI_VOD                         188
+#define IDB_BITMAP4                     189
+#define IDC_BUTTON1                     1002
+#define IDC_BUTTON3                     1004
+#define IDC_BUTTON4                     1005
+#define IDC_EDIT6                       1006
+#define IDC_EDIT3                       1006
+#define IDC_BUTTON5                     1006
+#define IDC_ANIMATE1                    1007
+#define IDC_BUTTON6                     1007
+#define IDC_STATIC1                     1008
+#define IDC_SCREEN                      1009
+#define IDC_BUTTON7                     1009
+#define IDC_EXPLORER1                   1010
+#define IDC_BUTTON8                     1010
+#define IDC_SPLITTER                    1011
+#define IDC_EDIT7                       1013
+#define IDC_SLIDER1                     1014
+#define IDC_BUFFER                      1015
+#define IDC_PLAY                        1016
+#define IDC_GRAN                        1017
+#define IDC_STATIC2                     1018
+#define IDC_PROGRESS1                   1019
+#define IDC_STATIC3                     1019
+#define IDC_LIST1                       1020
+#define IDC_STATIC4                     1020
+#define IDC_STATIC5                     1021
+#define IDC_STATIC6                     1022
+#define IDC_STATIC7                     1023
+#define IDC_STATIC8                     1024
+#define IDC_STATICa                     1025
+#define IDC_STATICb                     1026
+#define IDC_STATICc                     1027
+#define IDC_STATICd                     1028
+#define IDC_STATICe                     1029
+#define IDC_STATICf                     1030
+#define IDC_STATICg                     1031
+#define IDC_STATICh                     1032
+#define IDC_COMBO4                      1036
+#define IDC_STATIC_HIST                 1037
+#define IDC_DRAG                        1038
+#define IDC_STATICD1                    1039
+#define IDC_BUTTON2                     11003
+#define IDC_EDIT1                       11004
+#define IDC_EDIT2                       11005
+#define IDC_IPADDRESS1                  11006
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        190
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1043
+#define _APS_NEXT_SYMED_VALUE           109
+#endif
+#endif
