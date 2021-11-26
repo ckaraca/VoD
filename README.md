@@ -1,6 +1,6 @@
 # VoD
 VoD Thesis project files, including UDP and TCP servers, player, and the editor apps.
-You can find more information on the thesis assertion located from the Tez.pdf file
+You can find more information on the thesis assertion called Tez.pdf. The file is in the base folder.
 
 ## For those who want to get information about MFC/C++ 
 
