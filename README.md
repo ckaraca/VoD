@@ -9,6 +9,7 @@ You will see some folders inside the repository.
 
 - VoD - Video on Demand Windows Teacher Edition source codes
 - VoDPlayer - VoD Student UI source codes
+- VoDPP - VoD Player Plus, which includes online chating facility
 - VoDTCPServer - VoD TCP Server source codes
 - VoDUDPServer - VoD UDP Server source codes
 
