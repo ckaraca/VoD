@@ -1,0 +1,967 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VoD.ico"
+IDR_VoDTYPE             ICON                    "res\\VoDDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About VoD...",               ID_APP_ABOUT
+    END
+END
+
+IDR_MAINFRAME1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Close project",               ID_FILE_CLOSEPROJECT
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Login"
+    BEGIN
+        MENUITEM "Disconnect",                  ID_LOGIN_DISCONNECT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "Build"
+    BEGIN
+        MENUITEM "Upload project",              ID_BUILD_UPLOADPROJECT
+        MENUITEM "Add file server",             ID_BUILD_ADDFILESERVER
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About VoD...",               ID_APP_ABOUT
+    END
+END
+
+IDR_MAINFRAME2 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open - New project",          57601
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Login"
+    BEGIN
+        MENUITEM "Disconnect",                  ID_LOGIN_DISCONNECT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About VoD...",               ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VOD_FORM DIALOGEX 0, 0, 446, 245
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CHILD | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Video",IDC_STATIC,1,1,283,197,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,1,198,443,16,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,286,1,158,178
+    DEFPUSHBUTTON   "View",IDC_BUTTON1,286,182,32,14,WS_GROUP
+    PUSHBUTTON      "Design",IDC_BUTTON2,321,182,36,14
+    DEFPUSHBUTTON   "Code",IDC_CODE,361,182,32,14,WS_GROUP
+    DEFPUSHBUTTON   " ",IDC_BUTTON3,240,109,40,40,WS_GROUP
+    CONTROL         "",IDC_SCREEN,"Static",SS_BLACKRECT,4,12,234,177
+    DEFPUSHBUTTON   " ",IDC_BUTTON4,240,149,40,40,WS_GROUP
+    CONTROL         "",IDC_ANIMATE2,"SysAnimate32",WS_TABSTOP,240,12,40,40
+    CONTROL         "Custom1",IDC_CUSTOM1,"CRuler",WS_TABSTOP,1,213,443,31
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Eastern Mediterranean University"
+            VALUE "FileDescription", "Video on Demand Application"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "VoD Design system"
+            VALUE "LegalCopyright", "Cem KARACA Eastern Mediterranean University"
+            VALUE "OriginalFilename", "VoD.exe"
+            VALUE "ProductName", "Campus wide Video on Demand"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_VOD_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 444
+        VERTGUIDE, 4
+        VERTGUIDE, 284
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 244
+        HORZGUIDE, 10
+        HORZGUIDE, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\VoD.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_FORMATBAR           BITMAP                  "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_FORMATBAR TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_BOLD
+    BUTTON      ID_UNDERLINE
+    BUTTON      ID_ITALIC
+    SEPARATOR
+    BUTTON      ID_LEFT
+    BUTTON      ID_CENTER
+    BUTTON      ID_RIGHT
+    SEPARATOR
+    BUTTON      ID_ORDERLIST
+    BUTTON      ID_UNORDERLIST
+    SEPARATOR
+    BUTTON      ID_OUTDENT
+    BUTTON      ID_INDENT
+    SEPARATOR
+    BUTTON      ID_HYPERLINK
+    BUTTON      ID_FONT
+    BUTTON      ID_IMAGE
+    SEPARATOR
+    BUTTON      ID_BACKCOLOR
+    BUTTON      ID_BROWSE
+    BUTTON      ID_BUTTON32778
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "VoD"
+    GUIDFORMAT              "{%08lX-%04X-%04x-%02X%02X-%02X%02X%02X%02X%02X%02X}"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "VoD"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_UNDERLINE            "Underline"
+    ID_ITALIC               "Italic"
+    ID_BOLD                 "Bold"
+    ID_BACKCOLOR            "Insert table"
+    ID_HYPERLINK            "Add hyperlink"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDENT               "indent"
+    ID_OUTDENT              "Outdent"
+    ID_IMAGE                "Add image"
+    ID_FONT                 "Set font"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1254)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\login.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 133
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About VoD"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "VoD Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+    LTEXT           "Designed by Cem KARACA http://www.ikikule.com",
+                    IDC_STATIC,39,36,162,8,WS_DISABLED
+    CTEXT           "Includes Microsoft ® DirectX Multimedia Streaming Interface & Microsoft ® Internet Explorer \n server technologies under licence.",
+                    IDC_STATIC,17,52,203,28
+    CTEXT           "Some parts adopted from:\nNguyen Huy Hung's Splitter control class,\nDavide Calabro's CButtonST class,\nUður Hamzadayý's CRuler Class.",
+                    IDC_STATIC,16,81,203,36
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Turkish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+#ifdef _WIN32
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_LEDON               ICON                    "res\\LedOn.ico"
+IDI_LEDOFF              ICON                    "res\\LedOff.ico"
+IDI_RECING              ICON                    "res\\recing.ico"
+IDI_PAUSE               ICON                    "res\\pause.ico"
+IDI_PAUSE1              ICON                    "res\\pause1.ico"
+IDI_PLAY                ICON                    "res\\play.ico"
+IDI_PLAY1               ICON                    "res\\play1.ico"
+IDI_REC                 ICON                    "res\\rec.ico"
+IDI_RECOVER             ICON                    "res\\overrec.ico"
+IDI_STOP                ICON                    "res\\Stop.ico"
+IDI_STOP1               ICON                    "res\\Stop1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Add Faculty",                 ID_ADD1
+    END
+END
+
+IDR_MENU5 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Add Project",                 ID_ADD5
+    END
+END
+
+IDR_MENU4 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Add Chapter",                 ID_ADD4
+    END
+END
+
+IDR_MENU3 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Add Course",                  ID_ADD3
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Add Department",              ID_ADD2
+    END
+END
+
+IDR_MENU6 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Edit this project",           ID_MENU_EDITTHISPROJECT
+    END
+END
+
+IDR_MENU7 MENU 
+BEGIN
+    POPUP "Add new indicator"
+    BEGIN
+        MENUITEM "Add information to this point", 
+                                                ID_ADDNEWINDICATOR_ADDINFORMATIONTOTHISPOINT
+
+    END
+END
+
+IDR_MENU8 MENU 
+BEGIN
+    POPUP "Edit Ind"
+    BEGIN
+        MENUITEM "Edit this information",       ID_EDITIND_EDITTHISINFORMATION
+
+        MENUITEM "Delete this page",            ID_EDITIND_DELETETHISINDICATOR
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGIN DIALOGEX 0, 0, 367, 77
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Login",IDC_STATIC,7,7,353,63
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_GROUP | WS_TABSTOP,
+                    125,25,70,13
+    EDITTEXT        IDC_EDIT1,125,38,70,12,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_EDIT2,125,51,70,13,ES_PASSWORD | WS_GROUP
+    LTEXT           "User Name:",IDC_STATIC,78,40,38,8
+    LTEXT           "Password",IDC_STATIC,78,52,32,10
+    PUSHBUTTON      "Login",IDC_BUTTON1,212,18,57,48
+    LTEXT           "Host IP",IDC_STATIC,78,28,24,8
+    CONTROL         "",IDC_ANIMATE1,"SysAnimate32",ACS_CENTER | WS_TABSTOP,
+                    285,18,57,48
+END
+
+IDD_TABPROJECT DIALOGEX 0, 0, 152, 157
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATIC,2,154,148,0
+END
+
+IDD_TABMANAGE DIALOGEX 0, 0, 152, 157
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Media",IDC_STATIC,1,0,148,47,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Browse",IDC_BUTTON1,8,26,134,18
+    GROUPBOX        "Project",IDC_STATIC,1,49,148,104,0,WS_EX_TRANSPARENT
+    LTEXT           "Name",IDC_STATIC,4,63,20,8
+    LTEXT           "Subject",IDC_STATIC,4,78,25,8
+    LTEXT           "Description",IDC_STATIC,4,93,36,8
+    EDITTEXT        IDC_EDIT1,49,61,93,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,49,75,93,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,49,92,93,57,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    EDITTEXT        IDC_EDIT7,9,9,132,14,ES_AUTOHSCROLL
+END
+
+IDD_NAME DIALOGEX 0, 0, 181, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Please enter an identical name"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,37,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,37,50,14
+    EDITTEXT        IDC_EDFAC,7,7,167,13,ES_AUTOHSCROLL
+END
+
+IDD_NAME1 DIALOGEX 0, 0, 214, 79
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Please enter the department details"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,157,58,50,14
+    EDITTEXT        1001,10,35,193,13,ES_AUTOHSCROLL
+    LTEXT           "Faculty, the department will belong to is:",IDC_STATIC,
+                    7,8,132,8
+    LTEXT           "",IDC_FACULTY,142,8,65,8
+    GROUPBOX        "Department name:",IDC_STATIC,7,23,200,31
+END
+
+IDD_NAME2 DIALOGEX 0, 0, 216, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Please enter the course details "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,159,129,50,14
+    EDITTEXT        1001,92,35,117,13,ES_AUTOHSCROLL
+    LTEXT           "Department, the course will belong to is:",IDC_STATIC,7,
+                    8,130,8
+    LTEXT           "",IDC_DEPARTMENT,144,8,65,8
+    GROUPBOX        "Course:",IDC_STATIC,7,23,202,97
+    LTEXT           "Code.........................",IDC_STATIC,11,40,78,8
+    EDITTEXT        1002,92,48,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,92,60,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,57,72,152,41,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Name...........................",IDC_STATIC,11,52,78,8
+    LTEXT           "Instructor..................",IDC_STATIC,11,64,78,8
+    LTEXT           "Description....",IDC_STATIC,11,76,46,8
+END
+
+IDD_NAME3 DIALOGEX 0, 0, 216, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Please enter the chapter details "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,159,129,50,14
+    EDITTEXT        1001,92,35,117,13,ES_AUTOHSCROLL
+    LTEXT           "Course, the chapter will belong to is:",-1,7,8,118,8
+    LTEXT           "",IDC_DEPARTMENT,144,8,65,8
+    GROUPBOX        "Chapter",-1,7,23,202,97
+    LTEXT           "Name.........................",-1,11,40,78,8
+    EDITTEXT        IDC_EDIT4,57,57,152,56,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Description....",-1,11,57,46,8
+END
+
+IDD_NAME4 DIALOGEX 0, 0, 280, 215
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Please enter the Project details "
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,194,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,203,194,50,14
+    EDITTEXT        IDC_Name,70,57,192,12,ES_AUTOHSCROLL
+    LTEXT           "Chapter, the project will belong to is:",IDC_STATIC,7,8,
+                    120,8
+    LTEXT           "",IDC_DEPARTMENT,131,8,65,8
+    GROUPBOX        "Project",IDC_STATIC,7,47,266,145
+    LTEXT           "Name",IDC_STATIC,13,61,54,8
+    LTEXT           "Description",IDC_STATIC,11,87,46,8
+    EDITTEXT        IDC_Subject,70,70,192,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Description,16,98,247,55,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL
+    GROUPBOX        "Video Location",IDC_STATIC,7,19,266,26
+    EDITTEXT        IDC_BrEdit,17,29,181,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",1003,207,29,55,14
+    LTEXT           "Subject",IDC_STATIC,13,73,54,8
+    COMBOBOX        IDC_COMBO3,14,170,255,86,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Please Select a Content Server",IDC_STATIC,13,159,100,8
+END
+
+IDD_FTPUP DIALOGEX 0, 0, 263, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Starting file transfer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,206,122,50,14
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,7,
+                    100,249,16
+    GROUPBOX        "Status",IDC_STATIC,7,7,249,90,0,WS_EX_TRANSPARENT
+    LISTBOX         IDC_LIST1,13,17,237,77,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Start transfer",IDOK2,13,122,49,14
+END
+
+IDD_NEWFTP DIALOGEX 0, 0, 219, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,162,85,50,14
+    LTEXT           "Address, URL or IP",IDC_STATIC,15,16,62,8
+    GROUPBOX        "Ftp site",IDC_STATIC,7,7,205,76
+    EDITTEXT        IDC_EDIT1,80,12,131,13,ES_AUTOHSCROLL
+    LTEXT           "Ftp Site user name:",IDC_STATIC,15,26,64,8
+    EDITTEXT        IDC_EDIT2,126,26,85,14,ES_AUTOHSCROLL
+    LTEXT           "Password",IDC_STATIC,15,43,32,8
+    EDITTEXT        IDC_EDIT6,126,42,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Port",IDC_STATIC,16,59,14,8
+    EDITTEXT        IDC_EDIT7,172,58,40,14,ES_AUTOHSCROLL
+END
+
+IDD_FTPDOWN DIALOGEX 0, 0, 263, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Starting file transfer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,206,122,50,14
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,7,
+                    100,249,16
+    GROUPBOX        "Status",IDC_STATIC,7,7,249,90,0,WS_EX_TRANSPARENT
+    LISTBOX         IDC_LIST1,13,17,237,77,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_EMPTY DIALOGEX 0, 0, 362, 146
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         183,IDC_STATIC,"Static",SS_BITMAP,50,34,259,86,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_DELETE DIALOGEX 0, 0, 263, 39
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Deleting temprorary files as necessary"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,7,8,
+                    249,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        VERTGUIDE, 78
+        VERTGUIDE, 125
+        VERTGUIDE, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+        HORZGUIDE, 25
+        HORZGUIDE, 38
+        HORZGUIDE, 51
+        HORZGUIDE, 64
+    END
+
+    IDD_TABPROJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 150
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_TABMANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        VERTGUIDE, 149
+    END
+
+    IDD_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_NAME1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 72
+        HORZGUIDE, 19
+        HORZGUIDE, 23
+    END
+
+    IDD_NAME2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        VERTGUIDE, 11
+        VERTGUIDE, 57
+        VERTGUIDE, 89
+        VERTGUIDE, 92
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 143
+        HORZGUIDE, 19
+        HORZGUIDE, 23
+        HORZGUIDE, 32
+        HORZGUIDE, 35
+        HORZGUIDE, 48
+        HORZGUIDE, 60
+        HORZGUIDE, 72
+        HORZGUIDE, 84
+        HORZGUIDE, 113
+    END
+
+    IDD_NAME3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        VERTGUIDE, 11
+        VERTGUIDE, 57
+        VERTGUIDE, 89
+        VERTGUIDE, 92
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 143
+        HORZGUIDE, 19
+        HORZGUIDE, 23
+        HORZGUIDE, 32
+        HORZGUIDE, 35
+        HORZGUIDE, 48
+        HORZGUIDE, 84
+        HORZGUIDE, 113
+    END
+
+    IDD_NAME4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        VERTGUIDE, 13
+        VERTGUIDE, 70
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 208
+        HORZGUIDE, 19
+        HORZGUIDE, 71
+        HORZGUIDE, 84
+        HORZGUIDE, 89
+        HORZGUIDE, 159
+        HORZGUIDE, 169
+        HORZGUIDE, 185
+    END
+
+    IDD_FTPUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        VERTGUIDE, 13
+        VERTGUIDE, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+        HORZGUIDE, 15
+        HORZGUIDE, 116
+    END
+
+    IDD_NEWFTP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        VERTGUIDE, 15
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+        HORZGUIDE, 41
+        HORZGUIDE, 58
+    END
+
+    IDD_FTPDOWN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        VERTGUIDE, 13
+        VERTGUIDE, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+        HORZGUIDE, 15
+        HORZGUIDE, 116
+    END
+
+    IDD_EMPTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP                  "res\\VoDe.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\VoD.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_AVI1                AVI                     "res\\VoD.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_DATA1               Rcdata                  "res\\VoD.html"
+IDR_DATA2               Rcdata                  "res\\VoD.swf"
+IDR_DATA3               Rcdata                  "res\\VoD"
+#endif    // Turkish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\VoD.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

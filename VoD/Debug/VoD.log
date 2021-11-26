@@ -1,0 +1,49 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  WndSplitterEx.cpp
+  VoDView.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  VoDDoc.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  VoD.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  TabProject.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  TabPage.cpp
+  TabManage.cpp
+  TabCtrlEx.cpp
+  Sql.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Source.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  SADirRead.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\SADirRead.cpp(507,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+C:\Users\ckaraca\Desktop\Tez Github\VoD\SADirRead.cpp(514,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  Ruler.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  playvideo.cpp
+  NewFtp.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  MainFrm.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Login.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Html.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  globals.cpp
+  FtpDown.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Ftpd.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Generating Code...
+  Compiling...
+  Empty.cpp
+  Design.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\Sql.h(2,10): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+  Delete.cpp
+  BtnST.cpp
+C:\Users\ckaraca\Desktop\Tez Github\VoD\BtnST.cpp(14,1): warning C4005: 'BS_TYPEMASK': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(11039): message : see previous definition of 'BS_TYPEMASK'
+C:\Users\ckaraca\Desktop\Tez Github\VoD\BtnST.cpp(1676,3): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...

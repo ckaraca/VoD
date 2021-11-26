@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c778669b-f860-4c11-96ff-9bb13bdf4897}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tab">
+      <UniqueIdentifier>{db7c992b-d26f-4dab-883b-92948947ef7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{c53425ad-c516-42cb-99e4-dc760e59b46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTML">
+      <UniqueIdentifier>{f87a8312-1bd7-499e-955e-81f942d4ae15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{045fcebb-9890-47ef-95cd-2428c129da37}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tab">
+      <UniqueIdentifier>{724744c9-5e79-4a19-af4a-1cc719e57d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{384bad25-20a8-4d48-b9bf-03d90ab3e781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTML">
+      <UniqueIdentifier>{b008090e-280e-4830-a69b-2e43835d50c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f69e221e-a84e-41f9-9c4e-0cf81f2b5008}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpDown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ftpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SADirRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoDDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoDView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playvideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabCtrlEx.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabManage.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabPage.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabProject.cpp">
+      <Filter>Source Files\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WndSplitterEx.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Design.cpp">
+      <Filter>Source Files\HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="Html.cpp">
+      <Filter>Source Files\HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\HTML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoD.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VoDView.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\VoD.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\default1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Ftp.htm" />
+    <None Include="res\VoD" />
+    <None Include="res\VoD.avi" />
+    <None Include="res\VoD.html" />
+    <None Include="res\VoD.swf" />
+    <None Include="res\VoD2.avi" />
+    <None Include="res\libMysql.dll" />
+    <None Include="res\wave.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Delete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpDown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ftpd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SADirRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoDDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VoDView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mediatypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playvideo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabCtrlEx.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabManage.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabPage.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="TabProject.h">
+      <Filter>Header Files\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WndSplitterEx.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Design.h">
+      <Filter>Header Files\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="Html.h">
+      <Filter>Header Files\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>Header Files\HTML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LedOff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\LedOn.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Stop1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoD.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoDDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\VoDe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\id_toolb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\login.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\login.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\overrec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pause.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pause1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\play.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\play1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\recing.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\VoD.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

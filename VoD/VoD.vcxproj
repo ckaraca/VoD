@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{495C0681-E53E-4F82-8623-710526CEAD2C}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29911.84</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libmysql.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>libmysql.lib
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libmysql.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>F:/VoDRetail/$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <StackCommitSize>2097152</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="Delete.cpp" />
+    <ClCompile Include="Design.cpp" />
+    <ClCompile Include="Empty.cpp" />
+    <ClCompile Include="Ftpd.cpp" />
+    <ClCompile Include="FtpDown.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="Html.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NewFtp.cpp" />
+    <ClCompile Include="playvideo.cpp" />
+    <ClCompile Include="Ruler.cpp" />
+    <ClCompile Include="SADirRead.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Sql.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabCtrlEx.cpp" />
+    <ClCompile Include="TabManage.cpp" />
+    <ClCompile Include="TabPage.cpp" />
+    <ClCompile Include="TabProject.cpp" />
+    <ClCompile Include="VoD.cpp" />
+    <ClCompile Include="VoDDoc.cpp" />
+    <ClCompile Include="VoDView.cpp" />
+    <ClCompile Include="WndSplitterEx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ftp.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\default1.bin" />
+    <None Include="res\libMysql.dll" />
+    <None Include="res\VoD" />
+    <None Include="res\VoD.avi" />
+    <None Include="res\VoD.html" />
+    <None Include="res\VoD.rc2" />
+    <None Include="res\VoD.swf" />
+    <None Include="res\VoD2.avi" />
+    <None Include="res\wave.swf" />
+    <None Include="VoDView.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="Delete.h" />
+    <ClInclude Include="Design.h" />
+    <ClInclude Include="Empty.h" />
+    <ClInclude Include="Ftpd.h" />
+    <ClInclude Include="FtpDown.h" />
+    <ClInclude Include="Html.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="mediatypes.h" />
+    <ClInclude Include="NewFtp.h" />
+    <ClInclude Include="playvideo.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Ruler.h" />
+    <ClInclude Include="SADirRead.h" />
+    <ClInclude Include="Source.h" />
+    <ClInclude Include="Sql.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TabCtrlEx.h" />
+    <ClInclude Include="TabManage.h" />
+    <ClInclude Include="TabPage.h" />
+    <ClInclude Include="TabProject.h" />
+    <ClInclude Include="VoD.h" />
+    <ClInclude Include="VoDDoc.h" />
+    <ClInclude Include="VoDView.h" />
+    <ClInclude Include="WndSplitterEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\id_toolb.bmp" />
+    <Image Include="res\LedOff.ico" />
+    <Image Include="res\LedOn.ico" />
+    <Image Include="res\login.bmp" />
+    <Image Include="res\login.ico" />
+    <Image Include="res\overrec.ico" />
+    <Image Include="res\pause.ico" />
+    <Image Include="res\pause1.ico" />
+    <Image Include="res\play.ico" />
+    <Image Include="res\play1.ico" />
+    <Image Include="res\rec.ico" />
+    <Image Include="res\recing.ico" />
+    <Image Include="res\Stop.ico" />
+    <Image Include="res\Stop1.ico" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\VoD.ico" />
+    <Image Include="res\VoD.jpg" />
+    <Image Include="res\VoDDoc.ico" />
+    <Image Include="res\VoDe.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\VoD.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
