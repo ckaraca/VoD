@@ -12,5 +12,6 @@ You will see some folders inside the repository.
 - VoDPP - VoD Player Plus, which includes online chating facility
 - VoDTCPServer - VoD TCP Server source codes
 - VoDUDPServer - VoD UDP Server source codes
+- vodWeb - Includes necessary files for the web interface of VoD
 
-Player versions may require DirectX libraries to be installed. 
+Player versions may require DirectX libraries to be installed. SQL files are also here in the base folder. In order to run the applications, you have to install a MySQL server and import the default values.
